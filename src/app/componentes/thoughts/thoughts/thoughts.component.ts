@@ -1,3 +1,4 @@
+import { Pensamento } from './../thoughts';
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -6,7 +7,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./thoughts.component.css'],
 })
 export class ThoughtsComponent {
-  @Input() pensamento = {
+  @Input() pensamento: Pensamento = {
+   id:0,
     conteudo: 'I love Angular',
     autoria: 'Nay',
     modelo: 'modelo3',
