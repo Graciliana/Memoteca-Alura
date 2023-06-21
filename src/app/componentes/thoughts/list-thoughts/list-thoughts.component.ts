@@ -7,15 +7,15 @@ import { Component } from '@angular/core';
 })
 export class ListThoughtsComponent {
   listaPensamentos = [
-    {
-      conteudo: 'Passo informações para o componente filho',
-      autoria: 'Componente Pai',
-      modelo: 'modelo2',
-    },
-    {
-      conteudo: 'Minha propriedade é decorada com @Input ()',
-      autoria: 'Componente Filho',
-      modelo: 'modelo1',
-    },
+    // {
+    //   conteudo: 'Passo informações para o componente filho',
+    //   autoria: 'Componente Pai',
+    //   modelo: 'modelo2',
+    // },
+    // {
+    //   conteudo: 'Minha propriedade é decorada com @Input ()',
+    //   autoria: 'Componente Filho',
+    //   modelo: 'modelo1',
+    // },
   ];
 }
