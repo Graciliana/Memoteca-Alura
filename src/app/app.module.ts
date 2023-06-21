@@ -7,11 +7,11 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 
-import { CreateThoughtsComponent } from './componentes/thoughts/create-thoughts/create-thoughts.component';
 import { FormsModule } from '@angular/forms';
 import { ListThoughtsComponent } from './componentes/thoughts/list-thoughts/list-thoughts.component';
 import { ThoughtsComponent } from './componentes/thoughts/thoughts/thoughts.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CreateThoughtsComponent } from './componentes/thoughts/create-thoughts/create-thoughts.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     FooterComponent,
     CreateThoughtsComponent,
+
     ListThoughtsComponent,
     ThoughtsComponent,
   ],
