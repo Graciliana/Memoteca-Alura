@@ -11,6 +11,7 @@ import { CreateThoughtsComponent } from './componentes/thoughts/create-thoughts/
 import { FormsModule } from '@angular/forms';
 import { ListThoughtsComponent } from './componentes/thoughts/list-thoughts/list-thoughts.component';
 import { ThoughtsComponent } from './componentes/thoughts/thoughts/thoughts.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,9 +21,9 @@ import { ThoughtsComponent } from './componentes/thoughts/thoughts/thoughts.comp
     FooterComponent,
     CreateThoughtsComponent,
     ListThoughtsComponent,
-    ThoughtsComponent
+    ThoughtsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
