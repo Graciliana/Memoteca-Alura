@@ -7,12 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 
+import { CreateThoughtsComponent } from './componentes/thoughts/create-thoughts/create-thoughts.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CreateThoughtsComponent
   ],
   imports: [
     BrowserModule,
