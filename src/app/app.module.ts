@@ -8,6 +8,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 
 import { CreateThoughtsComponent } from './componentes/thoughts/create-thoughts/create-thoughts.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,11 +18,8 @@ import { CreateThoughtsComponent } from './componentes/thoughts/create-thoughts/
     FooterComponent,
     CreateThoughtsComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
