@@ -37,16 +37,10 @@
       "modelo": "modelo1"
     },
     {
-      "conteudo": "Pensamento Teste automatizado",
-      "autoria": "Cypress ",
-      "modelo": "modelo2",
+      "conteudo": "Pensamento Teste Automatizado E2E ",
+      "autoria": "Cypress  js",
+      "modelo": "modelo3",
       "id": 8
-    },
-    {
-      "id": 12,
-      "conteudo": "Padrão de Commit",
-      "autoria": "Github",
-      "modelo": "modelo1"
     }
   ]
 }

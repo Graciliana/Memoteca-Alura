@@ -11,8 +11,8 @@ export class ListThoughtsComponent implements OnInit{
   listaPensamentos: Pensamento[] = [];
   constructor(private service: ThoughtService){}
   ngOnInit(): void {
-  this.service.listar().subscribe((listaPensamentos) => {
-    this.listaPensamentos = listaPensamentos
+  this.service.listar().subscribe((listThought) => {
+    this.listaPensamentos = listThought
   });
   }
 }
