@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CreateThoughtsComponent } from './componentes/thoughts/create-thoughts/create-thoughts.component';
 import { ListThoughtsComponent } from './componentes/thoughts/list-thoughts/list-thoughts.component';
+import { DeleteThoughtsComponent } from './componentes/thoughts/delete-thoughts/delete-thoughts.component';
+
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo:'listThought',
+    redirectTo: 'listThought',
     pathMatch: 'full',
   },
   {
@@ -16,7 +18,11 @@ const routes: Routes = [
   {
     path: 'listThought',
     component: ListThoughtsComponent,
-  }
+  },
+  {
+    path: 'thoughts/deleteThought/:id',
+    component: DeleteThoughtsComponent,
+  },
 ];
 
 @NgModule({
